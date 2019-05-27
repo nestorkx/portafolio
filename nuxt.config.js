@@ -63,10 +63,10 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    vendor: ["jquery"],
+    vendor: ['jquery'],
     plugins: [
       new webpack.ProvidePlugin({
-        $: "jquery"
+        $: 'jquery'
       })
     ],
     extend(config, ctx) {
