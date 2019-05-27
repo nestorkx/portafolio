@@ -42,7 +42,7 @@
 
 
 @mixin tablet {
-  @media screen and (min-width: $tablet), print{
+  @media screen and (max-width: $tablet), print {
     @content
   }
 }
@@ -50,7 +50,7 @@
 
 
 @mixin tablet-only {
-  @media screen and (min-width: $tablet) and (max-width: $desktop - 1px){
+  @media only screen and (min-width: $tablet) {
     @content
   }
 }
@@ -58,7 +58,7 @@
 
 
 @mixin desktop {
-  @media screen and (min-width: $desktop){
+  @media screen and (max-width: $desktop) {
     @content
   }
 }
@@ -66,7 +66,7 @@
 
 
 @mixin desktop-only {
-  @media screen and (min-width: $desktop) and (max-width: $widescreen - 1px){
+  @media only screen and (min-width: $widescreen) {
     @content
   }
 }
