@@ -5,7 +5,7 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#nav-icon-collapse" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon" />
           </button>
 
           <!-- logo -->

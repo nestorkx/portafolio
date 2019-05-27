@@ -1,6 +1,6 @@
 <template>
   <div class="loading">
-    <div class="loading__load-circle"></div>
+    <div class="loading__load-circle" />
   </div>
 </template>
 <script>
