@@ -1,6 +1,6 @@
 <template>
   <section>
-    <nav class="navbar navbar-default navbar-light">
+    <nav ref="navbar" class="navbar navbar-default navbar-light">
       <div class="container d-block">
         <div class="navbar-header">
           <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#nav-icon-collapse" aria-expanded="false">
@@ -28,7 +28,26 @@
   </section>
 </template>
 <script>
+import $ from 'jquery'
 export default {
-  name: 'Navbar'
+  name: 'Navbar',
+  mounted() {
+    this.navbarScrolling()
+  },
+  methods: {
+    navbarScrolling() {
+      const wind = $(window)
+      wind.on('scroll', () => {
+        const bodyScroll = wind.scrollTop()
+        const navbar = $('.navbar-default')
+        const hHight = $('.header').outerHeight()
+        if (bodyScroll > hHight) {
+          navbar.addClass('navbar-scroll')
+        } else {
+          navbar.removeClass('navbar-scroll')
+        }
+      })
+    }
+  }
 }
 </script>

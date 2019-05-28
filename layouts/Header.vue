@@ -1,5 +1,5 @@
 <template>
-  <section class="header" data-scroll-index="0" style="background-position: 0 0;" :style="{ backgroundImage: 'url(' + require('@/assets/bg.jpg')}" data-stellar-background-ratio="0.8">
+  <section class="header header--bg" data-scroll-index="0" data-stellar-background-ratio="0.8">
     <div class="v-middle">
       <div class="container">
         <div class="row">
