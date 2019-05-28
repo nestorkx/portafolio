@@ -1,0 +1,117 @@
+.hero {
+  .hero-img {
+    padding: 0 0 0 30px;
+    position: relative;
+
+    &:after {
+      content: '';
+      width: 80%;
+      height: 80%;
+      position: absolute;
+      left: 0;
+      bottom: -30px;
+      background-repeat: repeat;
+      z-index: -1;
+      background-image: image('dots.png', $base-url);
+    }
+
+    @include desktop {
+      margin-bottom: 80px;
+    }
+  }
+
+  @at-root #{&}__title {
+    font-weight: 800;
+    margin-bottom: 5px;
+
+    @at-root #{&}--font {
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+
+  @at-root #{&}__subtitle {
+    display: inline-block;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+
+  @at-root #{&}__description {
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+  }
+
+  @at-root #{&}__skills {
+    margin-top: 30px;
+
+    @at-root #{&}--item {
+      margin-bottom: 30px;
+    }
+
+    @at-root #{&}--title {
+      font-size: 13px;
+      color: #fff;
+      position: relative;
+      z-index: 2;
+    }
+
+    @at-root #{&}--progress {
+      width: 100%;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background: #f7f7f7;
+      box-shadow: 0 2px 7px rgba(0,0,0,0.15) inset;
+      position: relative;
+    }
+
+    @at-root #{&}--bg-progress {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 10%;
+      border-radius: 5px;
+      background-color: #1c1c1c;
+      transition: all 1s;
+
+      &:after{
+        content: attr(data-value);
+        position: absolute;
+        top: 6px;
+        right: 10px;
+        font-size: 11px;
+        color: #fff;
+      }
+    }
+  }
+
+  @at-root #{&}__button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all .5s;
+    color: #333;
+
+    &:hover {
+      background: #1c1c1c;
+      color: #eee;
+    }
+
+    @at-root  #{&}--bg {
+      background: #1c1c1d;
+      color: #eee;
+
+      &:hover {
+        background: transparent;
+        color: #343434;
+      }
+    }
+  }
+}

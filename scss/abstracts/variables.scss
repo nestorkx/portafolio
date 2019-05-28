@@ -1,5 +1,5 @@
 
-$body-bg: gray;
+$body-bg: #fff;
 $white: #fff;
 
 
@@ -10,17 +10,17 @@ $navbar-light-color: rgba($white, 1) !default;
 
 
 // Responsiveness
-// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+// 991, 1192, and 1384 have been chosen because they are divisible by both 12 and 16
 $tablet: 767px !default
-// 960px container + 40px
+// 991px container
 $desktop: 991px !default
-// 1152px container + 40
+// 1192px container
 $widescreen: 1192px !default
-// 1344px container + 40
+// 1384px container
 $fullhd: 1384px !default
 
 /// Relative or absolute URL where all assets are served from
 /// @type String
 /// @example scss - When using a CDN
 /// $base-url: 'http://cdn.example.com/assets/';
-$base-url: '/assets/' !default;
+$base-url: '~assets/' !default;

@@ -72,16 +72,20 @@
 
       @include desktop {
         font-size: 13px;
+        margin: 25px 15px 0;
       }
 
       @include tablet-only {
         float: left;
+        display: block;
       }
 
       > a {
-        margin: 0 !important;
-        color: #fff !important;
-        padding: 0 !important;
+        display: block;
+        line-height: 20px;
+        margin: 0;
+        color: #fff;
+        padding: 0;
         position: relative;
         overflow: hidden;
 
@@ -99,6 +103,38 @@
       }
     }
   }
+
+  @at-root #{&}-scroll {
+    background: #fff;
+    box-shadow: 0 30px 50px rgba(0,0,0,.05);
+    min-height: 60px;
+    line-height: 60px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all .5s;
+
+    .logo {
+      padding-top: 2px;
+      color: #1c1c1c;
+
+      &:hover, &:focus{
+        color: #1c1c1c;
+      }
+    }
+
+    .navbar-nav > li > a {
+      color: #111;
+
+      &:after{
+        background: #222;
+      }
+    }
+
+  }
+
   @include tablet-only {
     @at-root #{&}-right {
       display: block;
