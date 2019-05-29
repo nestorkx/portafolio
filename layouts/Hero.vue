@@ -2,7 +2,7 @@
   <section class="hero section-padding pb-70" data-scroll-index="1">
     <div class="container">
       <div class="row">
-        <div class="col-xl-5 ">
+        <div class="col-xl-5">
           <div class="hero-img">
             <img class="img-fluid" src="@/assets/hero.jpg" alt="Nestor Kauil">
           </div>
@@ -41,11 +41,17 @@
             </div>
             <div class="clearfix" />
 
-            <a href="#0" download>
-              <span class="hero__button hero__button--bg">Descargar CV</span>
+            <a :href="pdf" download="CV-NESTOR-KAUIL">
+              <span class="hero__button hero__button--bg">
+                <i class="fa fa-download"></i>
+                Descargar CV
+              </span>
             </a>
             <a href="#0" data-scroll-nav="6">
-              <span class="hero__button">Cont&aacute;ctame</span>
+              <span class="hero__button">
+                <i class="fa fa-paper-plane"></i>
+                Cont&aacute;ctame
+              </span>
             </a>
           </div>
         </div>
@@ -55,8 +61,10 @@
 </template>
 <script>
 import $ from 'jquery'
+import pdf from '~/assets/documents/CV-NESTOR_ONLINE.pdf'
 export default {
   name: 'Hero',
+  data: () => ({ pdf }),
   mounted() {
     this.progressBar()
   },

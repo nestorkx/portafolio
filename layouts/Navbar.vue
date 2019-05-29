@@ -4,8 +4,9 @@
       <div class="container d-block">
         <div class="navbar-header">
           <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#nav-icon-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="navbar-toggler-icon" />
+            <span class="icon-bar" />
+            <span class="icon-bar" />
+            <span class="icon-bar" />
           </button>
 
           <!-- logo -->
@@ -18,7 +19,7 @@
             <li><a href="#" data-scroll-nav="0" class="active">Inicio</a></li>
             <li><a href="#" data-scroll-nav="1">Acerca</a></li>
             <li><a href="#" data-scroll-nav="2">Servicios</a></li>
-            <li><a href="#" data-scroll-nav="3">Trabajos</a></li>
+            <li><a href="#" data-scroll-nav="3">Portafolio</a></li>
             <li><a href="#" data-scroll-nav="4">Clientes</a></li>
             <li><a href="#" data-scroll-nav="5">Contacto</a></li>
           </ul>
