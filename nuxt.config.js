@@ -80,6 +80,11 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+      config.module.rules.push({
+        test: /\.(pdf)$/,
+        loader: 'file-loader',
+        exclude: /(node_modules)/
+      })
     }
   }
 }
