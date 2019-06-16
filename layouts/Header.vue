@@ -19,17 +19,30 @@
               </span>
             </h1>
             <div class="social-icon">
-              <a href="https://www.facebook.com/nestorkx" target="_blank">
-                <span class="social-icon--rounded"><i class="fab fa-facebook-f text-white" aria-hidden="true" /></span>
+              <a href="https://www.facebook.com/nestorkx" target="_blank" rel="nofollow">
+                <span class="social-icon--rounded">
+                  <i class="fab fa-facebook-f text-white" aria-hidden="true" />
+                </span>
               </a>
-              <a href="https://github.com/nestorkx" target="_blank">
-                <span class="social-icon--rounded"><i class="fab fa-github text-white" aria-hidden="true" /></span>
+              <a href="https://github.com/nestorkx" target="_blank" rel="nofollow">
+                <span class="social-icon--rounded">
+                  <i class="fab fa-github text-white" aria-hidden="true" />
+                </span>
               </a>
-              <a href="https://www.linkedin.com/in/nestor-kauil/" target="_blank">
-                <span class="social-icon--rounded"><i class="fab fa-linkedin-in text-white" aria-hidden="true" /></span>
+              <a href="https://bitbucket.org/nestorkauil/" target="_blank" rel="nofollow">
+                <span class="social-icon--rounded">
+                  <i class="fab fa-bitbucket text-white" />
+                </span>
               </a>
-              <a href="https://codepen.io/nestorkx/" target="_blank">
-                <span class="social-icon--rounded"><i class="fab fa-codepen text-white" aria-hidden="true" /></span>
+              <a href="https://www.linkedin.com/in/nestor-kauil/" target="_blank" rel="nofollow">
+                <span class="social-icon--rounded">
+                  <i class="fab fa-linkedin-in text-white" aria-hidden="true" />
+                </span>
+              </a>
+              <a href="https://codepen.io/nestorkx/" target="_blank" rel="nofollow">
+                <span class="social-icon--rounded">
+                  <i class="fab fa-codepen text-white" aria-hidden="true" />
+                </span>
               </a>
             </div>
           </div>

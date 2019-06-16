@@ -13,12 +13,16 @@
             <h3 class="hero__title hero__title--font">
               Acerca de m&iacute;.
             </h3>
-            <span class="hero__subtitle">Desarrollador Web - Mobile iOS / Android - Frontend - Backend & Analista BD</span>
+            <span class="hero__subtitle">
+              Desarrollador Web - Mobile iOS / Android - Frontend - Backend & Analista BD
+            </span>
             <p class="text-justify hero__description">
               Mi nombre es <b>Néstor Julián Kauil Xix</b> soy Ingeniero en Software con
-              más de 5+ Años desarrollando aplicaciones, 4+ años de experiencia profesional en el lenguaje de programación PHP (Backend),
+              más de 5+ Años desarrollando aplicaciones, 4+ años de experiencia
+              profesional en el lenguaje de programación PHP (Backend),
               2+ años de experiencia en base de datos usando MySQL, 1 año
-              y 8 meses de experiencia competente como desarrollador frontend y 1+ año desarrollando proyectos móviles de forma
+              y 8 meses de experiencia competente como desarrollador frontend
+              y 1+ año desarrollando proyectos móviles de forma
               independiente tales como iOS y Android usando tecnologías Swift 4, Java y Kotlin.
             </p>
             <div class="hero__skills">
@@ -43,13 +47,13 @@
 
             <a :href="pdf" download="CV-NESTOR-KAUIL">
               <span class="hero__button hero__button--bg">
-                <i class="fa fa-download"></i>
+                <i class="fa fa-download" />
                 Descargar CV
               </span>
             </a>
-            <a href="#0" data-scroll-nav="6">
+            <a href="#0" data-scroll-nav="5">
               <span class="hero__button">
-                <i class="fa fa-paper-plane"></i>
+                <i class="fa fa-paper-plane" />
                 Cont&aacute;ctame
               </span>
             </a>
@@ -62,6 +66,7 @@
 <script>
 import $ from 'jquery'
 import pdf from '~/assets/documents/CV-NESTOR_ONLINE.pdf'
+
 export default {
   name: 'Hero',
   data: () => ({ pdf }),
