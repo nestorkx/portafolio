@@ -3,7 +3,7 @@
     <div class="container">
       <div class="contact__head">
         <h3 class="contact__head--title contact__head--font">
-          Cont&aacute;ctame
+          Cont&aacute;ctame.
         </h3>
       </div>
       <div class="contact__info text-center mb-50">
