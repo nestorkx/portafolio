@@ -1,0 +1,16 @@
+footer {
+  background: #1c1c1c;
+  padding: 30px;
+
+  .footer__content {
+    font-size: 13px;
+    word-spacing: 2px;
+    line-height: 1.6;
+    margin: 0;
+
+    @at-root #{&}--color {
+      color: #748182;
+    }
+
+  }
+}

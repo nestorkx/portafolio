@@ -89,6 +89,10 @@
         position: relative;
         overflow: hidden;
 
+        &:hover, &:active, &:focus {
+          text-decoration: none;
+        }
+
         &:after {
           content: '';
           width: 0;
