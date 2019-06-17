@@ -1,0 +1,68 @@
+.testimonials {
+  @at-root #{&}__head {
+    margin-bottom: 80px;
+    text-align: center;
+
+    @at-root #{&}--font {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    @at-root #{&}--title {
+      font-weight: 900;
+      font-size: 40px;
+      position: relative;
+      display: inline-block;
+      z-index: 4;
+
+      &:after {
+        content: '';
+        width: 100%;
+        height: 30px;
+        background-image: image('dots.png', $base-url);
+        background-repeat: repeat;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        z-index: -1;
+      }
+    }
+  }
+
+  @at-root #{&}__item {
+    @at-root #{&}--img-container {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%
+    }
+
+    @at-root #{&}--author-img {
+      background-color: rgb(255, 255, 255);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      margin: 0 auto 15px;
+      border: 1px solid #f4f4f4;
+    }
+
+    @at-root #{&}--description {
+      word-spacing: 2px;
+      line-height: 1.6;
+      margin: 0;
+      font-size: 15px;
+      color: #748182;
+    }
+
+    @at-root #{&}--title {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 30px 0 5px;
+    }
+
+    @at-root #{&}--subtitle {
+      font-size: 12px;
+      font-weight: 600;
+      color: #888;
+      margin-bottom: 30px;
+    }
+  }
+}
