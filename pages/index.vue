@@ -4,6 +4,7 @@
     <Header />
     <Hero />
     <Services />
+    <Testimonials />
     <Contact />
     <Footer />
   </div>
@@ -16,9 +17,11 @@ import Hero from '@/layouts/Hero.vue'
 import Services from '@/layouts/Services.vue'
 import Footer from '@/layouts/Footer.vue'
 import Contact from '@/layouts/Contact.vue'
+import Testimonials from '@/layouts/Testimonials.vue'
 
 export default {
   components: {
+    Testimonials,
     Footer,
     Services,
     Hero,
