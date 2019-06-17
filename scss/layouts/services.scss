@@ -14,6 +14,10 @@
       display: inline-block;
       z-index: 4;
 
+      @include mobile {
+        font-size: 28px;
+      }
+
       &:after {
         content: '';
         width: 100%;
