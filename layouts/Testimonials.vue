@@ -99,7 +99,7 @@
                   class="testimonials__item--title
                   testimonials__head--font"
                 >
-                  Cristian Rodriguez
+                  Cristian Rodr&iacute;guez
                 </h6>
                 <span
                   class="testimonials__item--subtitle"
