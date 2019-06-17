@@ -1,5 +1,5 @@
 <template>
-  <section class="contact section-padding" data-scroll-index="5">
+  <section class="contact section-padding bg-gray" data-scroll-index="5">
     <div class="container">
       <div class="contact__head">
         <h3 class="contact__head--title contact__head--font">
