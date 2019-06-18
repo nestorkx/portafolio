@@ -2,7 +2,7 @@
   <section>
     <nav ref="navbar" class="navbar navbar-default navbar-light">
       <div class="container d-block">
-        <div class="navbar-header">
+        <div class="navbar-header clearfix">
           <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#nav-icon-collapse" aria-expanded="false">
             <span class="icon-bar" />
             <span class="icon-bar" />
