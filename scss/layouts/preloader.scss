@@ -4,7 +4,25 @@
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 1000;
+  z-index: 9999999999999;
+
+  &:after {
+    top: 0;
+  }
+
+  &:before {
+    bottom: 0;
+  }
+
+  &:after, &:before {
+    content: '';
+    background: #fff;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transition: all 1s;
+  }
 
   @at-root #{&}__load-circle {
     margin: 50vh auto;
@@ -24,14 +42,6 @@
     &:before {
       bottom: -60%;
     }
-  }
-
-  &:after {
-    top: 0;
-  }
-
-  &:before {
-    bottom: 0;
   }
 }
 

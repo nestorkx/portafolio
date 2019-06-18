@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Preloader />
     <Navbar />
     <Header />
     <Hero />
@@ -18,9 +19,11 @@ import Services from '@/layouts/Services.vue'
 import Footer from '@/layouts/Footer.vue'
 import Contact from '@/layouts/Contact.vue'
 import Testimonials from '@/layouts/Testimonials.vue'
+import Preloader from '@/layouts/Preloader.vue'
 
 export default {
   components: {
+    Preloader,
     Testimonials,
     Footer,
     Services,
