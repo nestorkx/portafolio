@@ -45,7 +45,8 @@ module.exports = {
   plugins: [
     { src: '~plugins/ga.js', ssr: false },
     { src: "~plugins/axios.js", ssr: false },
-    { src: "~plugins/scrollIt.js", ssr: false }
+    { src: "~plugins/scrollIt.js", ssr: false },
+    { src: "~plugins/bootstrap.js", ssr: false }
   ],
 
   /*
