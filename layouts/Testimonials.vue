@@ -20,7 +20,7 @@
                   :style="{backgroundImage: 'url(' + testimonials.remax + ')'}"
                 />
                 <p class="testimonials__item--description">
-                  N&eacute;stor trabajo bajo mi cargo y se destacó por su gran responsabilidad
+                  N&eacute;stor trabaj&oacute; bajo mi cargo y se destac&oacute; por su gran responsabilidad
                   y competencia en el trabajo, desempeñando el cargo de Programador Web.
                   Dada su experiencia y capacidad, no tengo nungún incoveniente en recomendarlo
                   ampliamente para el cargo.

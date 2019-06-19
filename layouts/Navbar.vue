@@ -19,7 +19,7 @@
             <li><a href="#" data-scroll-nav="0" class="active">Inicio</a></li>
             <li><a href="#" data-scroll-nav="1">Acerca</a></li>
             <li><a href="#" data-scroll-nav="2">Servicios</a></li>
-            <li><a href="#" data-scroll-nav="3">Portafolio</a></li>
+            <li><a href="#">Portafolio</a></li>
             <li><a href="#" data-scroll-nav="4">Recomendaciones</a></li>
             <li><a href="#" data-scroll-nav="5">Contacto</a></li>
           </ul>

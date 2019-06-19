@@ -45,6 +45,19 @@
                 </span>
               </a>
             </div>
+            <div class="col-xl-12">
+              <h5
+                class="header__caption--font
+              header__caption--line-height mt-4
+              animated
+              fadeIn"
+              >
+                Soy un apasionado <strong>Diseñador UI/UX</strong> y
+                <strong>Desarrollador Front-End</strong> creando modernos y responsivos diseños para la
+                <strong>Web</strong> y <strong>M&oacute;viles</strong>. <br> Ven y mira m&aacute;s
+                <strong class="header__caption--link" data-scroll-nav="1">acerca de m&iacute;</strong>.
+              </h5>
+            </div>
           </div>
         </div>
       </div>
